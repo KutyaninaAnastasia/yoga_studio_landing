@@ -1,0 +1,96 @@
+.contact{
+    padding-top: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contact_line{
+    width: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+}
+
+.contact_container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding-top: 25px;
+}
+
+.card_container{
+    width: 55%;
+    height: 100%;
+    border-radius: 19px;
+    background: rgba(33, 87, 50, 0.55);
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+.text_container{
+    padding-top: 3%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact_detail {
+    color: white;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 45px;
+}
+
+.contact_text {
+    font-family: Open Sans;
+    font-size: 17px;
+    line-height: 156%;
+    color: white;
+    margin-top: 10px;
+}
+
+.icons_container{
+    padding-top: 3%;
+    padding-left: 15px;
+    display: inline-flex;
+    grid-gap: 15px;
+}
+
+.icon_link{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #215732;
+    border-radius: 50%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon_t{
+    background-image: url("../icons/telegram.svg");
+    background-size: 32px 32px;
+}
+
+.icon_i{
+    background-image: url("../icons/instagram.svg");
+    background-size: 32px 32px;
+}
+
+.icon_link:hover {
+  transform: scale(1.15);
+}
+.map-container {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1149px) {
+    .contact_container {
+        padding-right: 30px;
+    }
+
+    .card_container {
+        width: 70%;
+    }
+}

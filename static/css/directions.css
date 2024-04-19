@@ -1,0 +1,107 @@
+.directions{
+    padding-top: 45px;
+    min-height: 550px;
+    padding-bottom: 45px;
+    width: 100%;
+}
+
+.directions_line{
+    width: 390px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.direction_content{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.card_horizontal{
+    width: 500px;
+    margin: 20px;
+    box-shadow: 0 2px 30px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    position: relative;
+}
+
+.card_horizontal_image{
+    padding-right: 10px;
+    height: 300px;
+}
+
+.card_horizontal_image img{
+    width: 220px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card_horizontal_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.card_horizontal_heading{
+    padding-bottom: 3px;
+    padding-top: 5px;
+}
+
+.card_horizontal_text{
+    padding-top: 8px;
+    padding-bottom: 35px;
+}
+
+.direction_points {
+    display: flex;
+    justify-content: center;
+}
+
+.direction_point {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #215732;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.card_horizontal {
+    display: none;
+}
+
+.card_horizontal.active {
+    display: flex;
+    background-color: #e9eaef;
+}
+
+.direction_point.active {
+    background-color: #cdb794;
+}
+
+.card_arrows {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.arrow {
+    font-size: 35px;
+    font-weight: bold;
+    color: #215732;
+    cursor: pointer;
+}
+
+.left-arrow{
+    padding-right: 70px;
+}
+
+.right-arrow{
+    padding-left: 70px;
+}

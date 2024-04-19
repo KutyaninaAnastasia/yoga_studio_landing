@@ -1,0 +1,60 @@
+.footer{
+    background-color: rgb(133, 162, 142);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    min-height: 160px;
+}
+
+.footer_text{
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.footer-menu{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.footer_link {
+    display: block;
+    font-family: "Bunya W03 Light";
+    font-weight: bold;
+    font-size: 87%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 210%;
+    color: #215732;
+    transition: filter 200ms linear, transform 200ms linear;
+}
+
+.footer_link:hover {
+    transform: scale(1.15);
+}
+
+.footer_first,
+.footer_dev-link{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer_image {
+    width: 80px;
+}
+
+.icon-developer img {
+    height: 50px;
+    transition: filter 200ms linear, transform 200ms linear;
+}
+
+.icon-developer:hover {
+    transform: scale(1.15);
+}
+
+

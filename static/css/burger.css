@@ -1,0 +1,79 @@
+.burger_item {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.burger_item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline: #FFFFFF;
+}
+
+.burger_link {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 167%;
+    color: #215732;
+    font-size: 18px;
+}
+
+.burger_link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline: #215732;
+}
+
+.burger_list {
+    list-style-type: none;
+    background-color: transparent;
+    position: absolute;
+    width: 130px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    z-index: 10;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    transition: all .4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    margin-left: -95px;
+    display: flex;
+}
+
+.burger_list_active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.burger-icon {
+    cursor: pointer;
+    display: none;
+    position: relative;
+}
+
+@media screen and (max-width: 999px) {
+    .burger-icon {
+        display: inline-block;
+    }
+}
+
+.burger-icon_line {
+    width: 35px;
+    height: 5px;
+    background-color: #215732;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.burger-icon_line_animation_first-line {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+.burger-icon_line_animation_second-line {
+    opacity: 0;
+}
+.burger-icon_line_animation_third-line {
+    transform: rotate(45deg) translate(-8px, -8px);
+}

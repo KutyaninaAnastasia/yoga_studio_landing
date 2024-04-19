@@ -1,0 +1,153 @@
+@import url(header.css);
+@import url(burger.css);
+@import url(hero.css);
+@import url(about.css);
+@import url(team.css);
+@import url(directions.css);
+@import url(schedule.css);
+@import url(price.css);
+@import url(contact.css);
+@import url(client_form.css);
+@import url(footer.css);
+
+@font-face {
+    font-family: "Bunya W03 Light";
+    src: url("https://db.onlinewebfonts.com/t/347bc47d809e5c05c2916576d462ed31.eot");
+    src: url("https://db.onlinewebfonts.com/t/347bc47d809e5c05c2916576d462ed31.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/347bc47d809e5c05c2916576d462ed31.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/347bc47d809e5c05c2916576d462ed31.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/347bc47d809e5c05c2916576d462ed31.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/347bc47d809e5c05c2916576d462ed31.svg#Bunya W03 Light")format("svg");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 117%;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 0;
+    color: #000;
+    display: block;
+}
+
+.line {
+    height: 4px;
+    background: #cdb794;
+    border-radius: 50px;
+}
+
+.page{
+    width: 100%;
+    margin: 0 auto;
+    font-family: Avenir Next;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_title {
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 17px;
+  align-items: center;
+  max-width: 600px;
+  padding-right: 80px;
+  padding-left: 81px;
+}
+
+.section_image {
+     width: 475px;
+     height: 475px;
+ }
+
+ @media screen and (max-width: 1049px) {
+     .section_image {
+         width: 425px;
+         height: 425px;
+     }
+ }
+
+ @media screen and (max-width: 969px) {
+     .section_image {
+         width: 375px;
+         height: 375px;
+     }
+ }
+
+ @media screen and (max-width: 899px) {
+     .section_image {
+         width: 325px;
+         height: 325px;
+         align-self: center;
+     }
+     .subtitle{
+         font-size: 28px;
+     }
+ }
+
+ @media screen and (max-width: 699px) {
+     .section_image {
+         display: none;
+     }
+ }
+
+ .btn-up {
+   position: fixed;
+   background-color: #215732;
+   right: 20px;
+   bottom: 0;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 60px;
+   height: 50px;
+ }
+
+ .btn-up::before {
+   content: "";
+   width: 40px;
+   height: 40px;
+   background: transparent no-repeat center center;
+   background-size: 100% 100%;
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+ }
+
+ .btn-up_hide {
+   display: none;
+ }
+
+ @media (hover: hover) and (pointer: fine) {
+   .btn-up:hover {
+     background-color: #cdb794;
+   }
+ }

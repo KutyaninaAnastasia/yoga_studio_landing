@@ -1,0 +1,76 @@
+.about-us {
+    padding-right: 204px;
+    padding-top: 100px;
+    min-height: 495px;
+}
+
+@media screen and (max-width: 1299px) {
+    .about-us {
+        padding-right: 150px;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+    .about-us {
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 919px) {
+    .about-us {
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    .about-us {
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .about-us {
+        padding-right: 0;
+    }
+}
+
+.content {
+    display: flex;
+}
+
+.subtitle{
+    margin-bottom: 4px;
+    font-family: "Bunya W03 Light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subtitle_detail{
+    font-family: Open Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 156%;
+      text-align: center;
+      margin-top: 4px;
+      margin-bottom: 20px;
+      margin-left: 0;
+      margin-right: 0;
+}
+
+.text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 156%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
