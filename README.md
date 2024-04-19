@@ -1,1 +1,1 @@
-# yoga_studio_landing
+Landing page for yoga studio with adaptive design
